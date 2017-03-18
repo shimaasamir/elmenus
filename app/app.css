@@ -1,0 +1,10 @@
+/* app css stylesheet */
+
+.logo {
+    display: block;
+    margin: 20px auto;
+}
+
+.tabs {
+    margin: 20px 0;
+}
