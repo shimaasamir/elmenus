@@ -88,7 +88,6 @@ angular.module('myApp').controller('MenuCtrl', function ($rootScope, $scope, $ht
     }
     $scope.ok = function () {
         $scope.isEdit = false;
-
     }
     if ($cookies.role == '' || $cookies.role == undefined) {
         $state.go('login')
